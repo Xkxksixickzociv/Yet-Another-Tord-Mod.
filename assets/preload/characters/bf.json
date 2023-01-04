@@ -79,7 +79,7 @@
 		},
 		{
 			"offsets": [
-				-46,
+				-36,
 				27
 			],
 			"loop": false,
@@ -112,18 +112,7 @@
 		},
 		{
 			"offsets": [
-				14,
-				18
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "hurt",
-			"indices": [],
-			"name": "BF hit"
-		},
-		{
-			"offsets": [
-				-4,
+				-8,
 				0
 			],
 			"loop": true,
@@ -134,25 +123,36 @@
 		},
 		{
 			"offsets": [
-				-10,
-				-16
+				27,
+				11
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "dodge",
+			"anim": "firstDeath",
 			"indices": [],
-			"name": "boyfriend dodge"
+			"name": "BF dies"
 		},
 		{
 			"offsets": [
-				294,
-				267
+				27,
+				5
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "BF Dead Loop"
+		},
+		{
+			"offsets": [
+				27,
+				69
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "attack",
+			"anim": "deathConfirm",
 			"indices": [],
-			"name": "boyfriend attack"
+			"name": "BF Dead confirm"
 		},
 		{
 			"offsets": [
@@ -164,13 +164,79 @@
 			"anim": "pre-attack",
 			"indices": [],
 			"name": "bf pre attack"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-37,
+				-59
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "BFCOOLDOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				30
+			],
+			"anim": "hey-alt",
+			"fps": 24,
+			"name": "COOLHEY",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-40,
+				49
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "BFCOOLUP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				0
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "BFCOOLIDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-20
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "BFCOOLLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-50,
+				0
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "BFCOOLRIGHT",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"image": "characters/bf",
 	"position": [
-		0,
-		350
+		20,
+		210
 	],
 	"healthicon": "bf",
 	"flip_x": true,
